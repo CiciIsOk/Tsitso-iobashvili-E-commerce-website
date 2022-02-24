@@ -7,7 +7,7 @@ import "./Products.css";
 
 //Fetching Data using the Apollo Query Component
 
-//Extracting query into it's own constant and to use it later in Clothes.jsx and Tech.jsx
+//Extracting query into it's own constant to use it later in Clothes.jsx and Tech.jsx
 export const allProducts = gql`
   {
     category {
